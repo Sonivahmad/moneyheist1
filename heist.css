@@ -1,0 +1,67 @@
+*{
+    text-transform: capitalize;
+}
+main{
+    text-align: center;
+    width: 100vh;
+    height: 100%;
+}
+h1{
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+}
+main img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+h3{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px 42%;
+    border: 1px solid rgba(180, 180, 9, 0.804)
+}
+h3:hover{
+    transition: .5s;
+    color: white;
+    background-color: red;
+}
+.Watch{
+    border-color: transparent;
+    background-color: rgb(255, 4, 4);
+    color: white;
+    padding: 10px 100px;
+    margin:30px 50px;
+    border-radius: 10px;
+}
+.Watch:hover{
+    background-color: rgba(244, 65, 65, 0.927);
+    transition: .5s;
+    }
+    .Watchlater{
+        border-color: transparent;
+        background-color: rgb(255, 4, 4);
+        color: white;
+        padding: 10px 100px;
+        margin:30px 50px;
+        border-radius: 10px;
+    }
+    .Watchlater:hover{
+        background-color: rgba(244, 65, 65, 0.927);
+        transition: .5s;
+         }
+   
+    footer{
+    padding: 30px 0px;
+    background-color: red;
+    }
+    footer a{
+    color: white;
+    text-decoration: none;
+    margin: 40px;
+    }
+    footer a:hover{
+    border-bottom: 1px solid white;
+    transition: .3s ease;
+    }
